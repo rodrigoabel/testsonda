@@ -35,7 +35,6 @@ public class HelloController {
 	     
 	    //int name = recivido.getId();
 	     byte[] datos = new byte[9];
-	     
 	     int operacion = -10;
 	     for (int i = 0; i < data.length(); i=i+9) {
 	     

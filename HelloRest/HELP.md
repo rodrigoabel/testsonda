@@ -1,17 +1,15 @@
-# Getting Started
+# Test Teletrabajo Sonda
 
-### Reference Documentation
-For further reference, please consider the following sections:
+### Documentación de uso
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.4/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.4/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.4.4/reference/htmlsingle/#boot-features-developing-web-applications)
+Es un WS realizado en Spring Boot que lee un archivo binario y lo parsea adecuadamente para poder obtener un número de registro y una operación según se solicitó.
 
-### Guides
-The following guides illustrate how to use some features concretely:
+Este ws esta hecho para recibir un Json con el registro solicitado y  respondiendo en formato Json el registro y su operación asociada, el cual fue sacado del archivo binario.
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+Para que la aplicación funciones se debe utilizar la herramienta SoalUI o Postman enviando los parámetros en formato Json recibiendo la respuesta en el mismo formato.
 
+### Ejemplo envío exitoso
+![image info](test1.PNG)
+
+### Ejemplo número no contenido en el binario
+![image info](test2.PNG)
